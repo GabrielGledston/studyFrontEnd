@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 200vh;
+    width: 200vh;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    transition: 2s;
+}
+
+.container:hover{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}

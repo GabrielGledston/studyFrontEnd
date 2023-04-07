@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 200vh;
+    width: 200vh;
+}
+
+.input::before{
+    content: "->";
+}

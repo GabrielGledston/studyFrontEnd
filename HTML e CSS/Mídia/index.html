@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Teste das tags de mídia.</h1>
+
+    <img src="imgs-vídeos/icon.jpg" alt="icon do guts.">
+
+    <video controls>
+        <source src="imgs-vídeos/Berserk • Edit - Tongue.mp4" type="video/mp4">
+        Seu navegador não possui suporte para vídeos!
+    </video>
+
+    <img id="msc" src="imgs-vídeos/musicicon.jpg" alt="">
+    <audio id="player" controls>
+        <source src="imgs-vídeos/Love Me.mp3" type="audio/mp3">
+        Seu navegador não possui suporte para áudio! 
+    </audio>
+
+    <button onclick="document.getElementById('player').play()">Play</button>
+    <button onclick="document.getElementById('player').pause()">Pause</button>
+
+    <iframe src="contato.html" frameborder="10"></iframe>
+</body>
+</html>

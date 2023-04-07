@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: animacao;
+    animation-duration: 5s;
+}
+
+@keyframes animacao{
+    from{
+        border-radius: 0;
+    }
+    to{
+        border-radius: 50%;
+    }
+}
