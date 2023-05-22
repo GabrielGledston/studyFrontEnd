@@ -11,6 +11,10 @@ body {
     background-color: #000;
 }
 
+a{
+    color: white;
+}
+
 header {
     background-color: black;
     height: 90px;
