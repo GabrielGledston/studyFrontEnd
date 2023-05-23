@@ -2,9 +2,9 @@ const object = {
     nome: 'Gabriel',
     idade: 17,
     showMessage: function(){
-        alert("Olá", this.nome)
+        alert("Olá")
     },
     estado: 'Piauí'
 }
 
-console.log(object)
+console.log(object.showMessage())
